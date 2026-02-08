@@ -424,6 +424,8 @@ const MasterTimetable: React.FC<MasterTimetableProps> = ({ state, setState }) =>
                       </tr>
                     );
                   })}
+                </React.Fragment>
+              ))}
             </tbody>
           </table>
         </div>
